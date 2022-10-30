@@ -16,6 +16,13 @@
 		32A5E6EF290E92100032EEA2 /* LRU_Cache_ImpelementationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A5E6EE290E92100032EEA2 /* LRU_Cache_ImpelementationTests.swift */; };
 		32A5E6F9290E92100032EEA2 /* LRU_Cache_ImpelementationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A5E6F8290E92100032EEA2 /* LRU_Cache_ImpelementationUITests.swift */; };
 		32A5E6FB290E92100032EEA2 /* LRU_Cache_ImpelementationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A5E6FA290E92100032EEA2 /* LRU_Cache_ImpelementationUITestsLaunchTests.swift */; };
+		32A5E708290E937E0032EEA2 /* ImageApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A5E707290E937E0032EEA2 /* ImageApi.swift */; };
+		32A5E70A290E94E30032EEA2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A5E709290E94E30032EEA2 /* Constants.swift */; };
+		32A5E70C290E95880032EEA2 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A5E70B290E95880032EEA2 /* ImageModel.swift */; };
+		32A5E70E290E9AD10032EEA2 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A5E70D290E9AD10032EEA2 /* ImageViewModel.swift */; };
+		32A5E710290EA20C0032EEA2 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A5E70F290EA20C0032EEA2 /* ImageCell.swift */; };
+		32A5E712290EAA9E0032EEA2 /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A5E711290EAA9E0032EEA2 /* LRUCache.swift */; };
+		32A5E716290EAD930032EEA2 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A5E715290EAD930032EEA2 /* UIImageView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		32A5E6F4290E92100032EEA2 /* LRU Cache ImpelementationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LRU Cache ImpelementationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A5E6F8290E92100032EEA2 /* LRU_Cache_ImpelementationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRU_Cache_ImpelementationUITests.swift; sourceTree = "<group>"; };
 		32A5E6FA290E92100032EEA2 /* LRU_Cache_ImpelementationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRU_Cache_ImpelementationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		32A5E707290E937E0032EEA2 /* ImageApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageApi.swift; sourceTree = "<group>"; };
+		32A5E709290E94E30032EEA2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		32A5E70B290E95880032EEA2 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		32A5E70D290E9AD10032EEA2 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		32A5E70F290EA20C0032EEA2 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		32A5E711290EAA9E0032EEA2 /* LRUCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
+		32A5E715290EAD930032EEA2 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +120,13 @@
 				32A5E6E0290E920F0032EEA2 /* Assets.xcassets */,
 				32A5E6E2290E920F0032EEA2 /* LaunchScreen.storyboard */,
 				32A5E6E5290E920F0032EEA2 /* Info.plist */,
+				32A5E707290E937E0032EEA2 /* ImageApi.swift */,
+				32A5E709290E94E30032EEA2 /* Constants.swift */,
+				32A5E70B290E95880032EEA2 /* ImageModel.swift */,
+				32A5E70D290E9AD10032EEA2 /* ImageViewModel.swift */,
+				32A5E70F290EA20C0032EEA2 /* ImageCell.swift */,
+				32A5E711290EAA9E0032EEA2 /* LRUCache.swift */,
+				32A5E715290EAD930032EEA2 /* UIImageView+Extension.swift */,
 			);
 			path = "LRU Cache Impelementation";
 			sourceTree = "<group>";
@@ -258,8 +279,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A5E716290EAD930032EEA2 /* UIImageView+Extension.swift in Sources */,
+				32A5E70E290E9AD10032EEA2 /* ImageViewModel.swift in Sources */,
+				32A5E70A290E94E30032EEA2 /* Constants.swift in Sources */,
+				32A5E70C290E95880032EEA2 /* ImageModel.swift in Sources */,
+				32A5E712290EAA9E0032EEA2 /* LRUCache.swift in Sources */,
 				32A5E6DC290E920D0032EEA2 /* ViewController.swift in Sources */,
 				32A5E6D8290E920D0032EEA2 /* AppDelegate.swift in Sources */,
+				32A5E710290EA20C0032EEA2 /* ImageCell.swift in Sources */,
+				32A5E708290E937E0032EEA2 /* ImageApi.swift in Sources */,
 				32A5E6DA290E920D0032EEA2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
